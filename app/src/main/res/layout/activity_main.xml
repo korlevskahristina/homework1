@@ -12,7 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Favorite Twitter Searches"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:background="@color/gray"
+        android:textColor="@color/white"/>
 
     <EditText
         android:id="@+id/editText"
@@ -53,13 +55,15 @@
         android:text="Tagged Searches"
         android:textSize="30dp"
         android:layout_below="@id/editText2"
-        android:paddingLeft="100dp"/>
+        android:paddingLeft="100dp"
+        android:background="@color/orange"/>
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:rowCount="6"
         android:columnCount="2"
-        android:layout_below="@id/textView2">
+        android:layout_below="@id/textView2"
+        android:background="@color/orange">
 
     <Button
         android:id="@+id/androidfp"
@@ -170,8 +174,17 @@
             android:textSize="25dp"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="20dp"/>
-
-
-
 </GridLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear Tags"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginRight="40dp"
+        android:layout_below="@id/textView2" />
+
 </RelativeLayout>
