@@ -54,4 +54,52 @@
         android:textSize="30dp"
         android:layout_below="@id/editText2"
         android:paddingLeft="100dp"/>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="6"
+        android:columnCount="2"
+        android:layout_below="@id/textView2">
+
+    <Button
+        android:id="@+id/androidfp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AndroidFP"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"/>
+
+        <Button
+            android:id="@+id/edit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:textSize="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"/>
+        <Button
+            android:id="@+id/deitel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deitel"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="80dp"
+            android:paddingRight="75dp" />
+        <Button
+            android:id="@+id/edit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:textSize="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"/>
+
+
+
+</GridLayout>
 </RelativeLayout>
